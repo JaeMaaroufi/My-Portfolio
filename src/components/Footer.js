@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="bg-zinc-900 flex flex-col gap-8 py-10">
-        <a href="main-page">
+        <a href="#main-page">
           <div className="text-zinc-200 flex flex-col gap-1 items-center font-bold tracking-widest transition-all duration-300 transform hover:scale-110 cursor-pointer">
             <RiArrowUpDoubleFill />
             BACK TO TOP
