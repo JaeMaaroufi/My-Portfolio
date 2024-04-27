@@ -1,6 +1,6 @@
 import React from "react";
 import { RiArrowUpDoubleFill } from "react-icons/ri";
-import { RxGithubLogo, RxVercelLogo } from "react-icons/rx";
+import { RxGithubLogo } from "react-icons/rx";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { RxInstagramLogo } from "react-icons/rx";
 import { RxEnvelopeClosed } from "react-icons/rx";
