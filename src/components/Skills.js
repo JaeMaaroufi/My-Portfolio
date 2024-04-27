@@ -5,72 +5,77 @@ import javascriptLogo from "../assets/javascript-logo.png";
 import reactLogo from "../assets/react-logo.png";
 import gitLogo from "../assets/Git-logo.png";
 import figmaLogo from "../assets/Figma-logo.png";
-import translateLogo from "../assets/translation-logo.png";
-import arLang from "../assets/arabic-logo.png";
-import enLang from "../assets/english-logo.png";
-import musicLogo from "../assets/music-logo.png";
 const Skills = () => {
   return (
-    <div className="bg-zinc-200 flex flex-col items-center justify-center z-50 relative h-screen">
-      <h1 className="font-mukta-regular tracking-widest border-x-4 border-x-gray-900 text-2xl font-bold  mb-4 px-16 py-4">
+    <div
+      id="skills-page"
+      className="bg-zinc-200 flex flex-col items-center justify-center z-50 relative h-full overflow-x-hidden lg:pb-20"
+    >
+      <h1
+        className="text-zinc-900 font-mukta-regular font-bold tracking-widest border-x-4 border-x-zinc-900 text-xl my-16 mb-20 px-12 py-3 lg:text-2xl lg:px-16 lg:py-4"
+        data-aos="fade-down"
+      >
         SKILLS
       </h1>
 
       <div className="flex flex-wrap justify-around w-full">
         <div className="flex flex-col gap-10">
-          <h1 className="font-mukta-regular tracking-widest text-lg font-bold my-8">
+          <h1
+            className="text-zinc-900 self-center font-mukta-regular border-x-2 border-x-zinc-900  tracking-widest text-2xl my-10 px-8 py-1 lg:my-8 lg:text-xl"
+            data-aos="zoom-out"
+          >
             USING:
           </h1>
-          <div className="flex justify-center gap-10">
+          <div className="flex flex-wrap items-center justify-center gap-8 lg:justify-center lg:gap-10">
             <div>
-              <img src={htmlLogo} alt="HTML Logo" className="w-28 " />
+              <img
+                src={htmlLogo}
+                alt="HTML Logo"
+                className="w-32 lg:w-28"
+                data-aos="fade-right"
+              />
             </div>
             <div>
-              <img src={cssLogo} alt="CSS Logo" className="w-28 " />
+              <img
+                src={cssLogo}
+                alt="CSS Logo"
+                className="w-32 lg:w-28"
+                data-aos="fade-left"
+              />
             </div>
             <div>
               <img
                 src={javascriptLogo}
                 alt="Javascript Logo"
-                className="w-28 "
+                className="w-32 lg:w-28"
+                data-aos="fade-right"
               />
             </div>
             <div>
-              <img src={figmaLogo} alt="Figma Logo" className="w-24 pt-3 " />
+              <img
+                src={figmaLogo}
+                alt="Figma Logo"
+                className="w-28 lg:w-24 lg:pt-3"
+                data-aos="fade-left"
+              />
             </div>
           </div>
-          <div className="flex justify-center gap-10 ml-4">
+          <div className="flex justify-center gap-5 pb-10 lg:gap-10">
             <div>
-              <img src={reactLogo} alt="React Logo" className="w-28 " />
+              <img
+                src={reactLogo}
+                alt="React Logo"
+                className="w-32 lg:w-28 "
+                data-aos="fade-right"
+              />
             </div>
             <div>
-              <img src={gitLogo} alt="Git Logo" className=" w-28  " />
-            </div>
-          </div>
-        </div>
-
-        <div className="flex flex-col w-1/3 gap-11">
-          <h1 className="font-mukta-regular tracking-widest text-lg font-bold my-8">
-            OTHER SKILLS:
-          </h1>
-          <div className="flex flex-col justify-center gap-16">
-            <div className="flex justify-center gap-16">
-              <div>
-                <img src={translateLogo} alt="HTML Logo" className="w-32 " />
-              </div>
-              <div className="">
-                <div className="">
-                  <img src={arLang} alt="CSS Logo" className="w-32 " />
-                </div>
-              </div>
-            </div>
-            <div className="flex justify-center gap-16">
-              <div>
-                <img src={enLang} alt="Javascript Logo" className="w-32 " />
-              </div>
-              <div>
-                <img src={musicLogo} alt="Javascript Logo" className="w-32 " />
-              </div>
+              <img
+                src={gitLogo}
+                alt="Git Logo"
+                className="w-32 lg:w-28"
+                data-aos="fade-left"
+              />
             </div>
           </div>
         </div>
